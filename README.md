@@ -45,8 +45,8 @@ sudo apt install docker.io -y
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone <your-repo-url>
-cd <your-folder>
+git clone https://github.com/vivekdalsaniya12/nginx-terraform.git
+cd nginx-terraform
 terraform init
 terraform plan
 terraform apply
