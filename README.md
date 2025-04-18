@@ -12,7 +12,7 @@ This project demonstrates how to use **Terraform** to spin up a **Docker contain
 - Port `8000` open in the EC2 security group
 
 ---
-## ⚙️ Install Terraform $ docker 
+## ⚙️ Install Terraform $ docker ( for Ubuntu )
 
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
@@ -41,6 +41,8 @@ sudo apt-get install terraform
 sudo apt update
 sudo apt install docker.io -y
 ```
+## 📋 For Other Operating Systems
+https://developer.hashicorp.com/terraform/tutorials/docker-get-started/install-cli
 
 ## ⚙️ Setup Instructions
 
